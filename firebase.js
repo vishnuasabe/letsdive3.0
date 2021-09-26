@@ -1,11 +1,21 @@
 import firebase from "firebase";
 const firebaseConfig = {
-  apiKey: "AIzaSyDAkl1JRTncxL7p1UEo9T4hbP1pDhwJaMU",
-  authDomain: "whatsapp-20948.firebaseapp.com",
-  projectId: "whatsapp-20948",
-  storageBucket: "whatsapp-20948.appspot.com",
-  messagingSenderId: "736479526721",
-  appId: "1:736479526721:web:b04f2270e7e5ad2d79ebc0",
+  apiKey: "AIzaSyAw6oMYl3SmtVFWaSrfD9upHVuhVqmx4i0",
+
+  authDomain: "letsdive-39026.firebaseapp.com",
+
+  databaseURL: "https://letsdive-39026-default-rtdb.firebaseio.com",
+
+  projectId: "letsdive-39026",
+
+  storageBucket: "letsdive-39026.appspot.com",
+
+  messagingSenderId: "784307863658",
+
+  appId: "1:784307863658:web:9c137c6af38b5baf534a13",
+
+  measurementId: "G-98VKG6RG8E"
+
 };
 // initialize the app
 const app = !firebase.apps.length
